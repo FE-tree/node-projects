@@ -1,0 +1,20 @@
+{
+  "name": "interactive",
+  "version": "1.0.0",
+  "description": "about node Chuman-computer interaction some demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "img-spider": "bin/run"
+  },
+  "author": "tree",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "inquirer": "^7.0.0",
+    "puppeteer": "^1.20.0"
+  }
+}
